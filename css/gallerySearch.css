@@ -1,0 +1,105 @@
+
+			body {
+				font-family: Arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+			}
+			
+			#search a{
+				color:black;
+			}
+			
+			#search a:hover{
+				color:grey;
+			}
+			
+			#buttons {
+				width: 97.55%;
+				margin:.2em auto;
+				background-color: #FF5500;
+				overflow: auto;
+				text-align: center;
+				border: solid thick black;
+			}
+			
+			#buttons button{
+				width: calc(100%/6);
+				background-color: #FFFD75;
+				display:inline;
+				border: solid #000000;
+				padding:0;
+				margin-top:0.25em;
+				margin-bottom:0.25em;
+				font-size: 1em;
+				font-weight: bold;
+			}
+			
+			#buttons button:hover{
+				background-color: #bfa43b;
+			}
+			
+			#buttons button.active {
+				background-color: #bfa43b;
+			}
+			
+			#buttons button:focus {
+				outline: 0;
+			}
+			
+			
+			#gallerySearchButton {
+				width: 96%;
+				margin: .5em 2%;
+				font-size: 1.2em;
+				padding: .5em;
+				background-color: #FF5500;
+				border: solid black thick;
+				font-weight: bold;
+				color:  #FFFD75;
+				text-shadow: 1px 0px 0 black, 0px 1px 0 black,  -1px 0px 0 black, 0px -1px 0 black;
+			}
+			
+			#filter-search {
+				margin: 2em 25%;
+				width: 50%;
+			}
+
+			table {
+				width: 95%;
+				background-color: #FF5500;
+				margin: 1em auto 2em;
+				font-size: 1.3em;
+				border-collapse: separate;
+				border-spacing: 4px;
+				table-layout: fixed;
+			}
+			tbody {
+				
+			}
+			tr {
+				margin: 0px;
+				background-color: #FFF;
+			}
+			
+			th {
+				padding: 10px;
+				background-color: #fffc4d;
+			}
+			
+			td {
+				background-color: #FFFD75;
+				padding: 5px;
+				text-align: left;
+				vertical-align: middle;
+				font-weight: bold;
+			}
+			
+			td p {
+				margin: 0;
+			}
+			
+			.ascending:after {
+				content: " \2191";
+			}
+			
+			.descending:after {
+				content: " \2193";
+			}

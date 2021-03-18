@@ -1,0 +1,572 @@
+
+	#introText {
+		position: absolute;
+	}
+	
+	.dirtText .tabs ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.tabs ul li {
+		display: inline-block;
+		width: 100%;
+		background-color: rgb(163,120,97);
+		text-shadow: 
+		-1px -1px 0 rgb(193,143,118), 
+		1px -1px 0 rgb(193,143,118), 
+		-1px 1px 0 rgb(193,143,118), 
+		1px 1px 0 rgb(193,143,118);
+		text-align: center;
+		
+		border: 1px solid black;
+		margin: -1px 0;
+	}
+	
+	.project {
+		background-color: rgb(163,120,97);
+		margin: 1em auto 1em;
+		padding: .2em;
+		width: 90%;
+	}
+	
+	.project video {
+		border: thin black solid;
+		margin: 0 auto;
+		display: block;
+		width: 100%;
+		height: 36vw;
+	}
+	
+	.projectDiv	 .project img {
+		text-align: center;
+		max-width: none;
+		width: 99%;
+		clear: both;
+		float: none;
+		margin: 0 auto;
+		image-rendering: auto;
+		border: black thin solid;
+	}
+
+	.projectDiv .project .smallImg img {
+		width: 99%;
+	}
+	
+	.projectText {
+		background-color: rgb(193,143,118);
+		width: 99%;
+		margin: 0 auto;
+	}
+	
+	.projectDiv .project .doubleImg img {
+		display: inline;
+		width: auto;
+		margin: 1em auto;
+		text-align: center;
+		max-width: 100%;
+		border: none;
+	}
+	
+	.projectDiv .project .phoneScreenshots img{
+		display: inline;
+		width: auto;
+		margin: 1em auto;
+		text-align: center;
+		max-width: 100%;
+		border: none;
+	}
+	
+	
+
+	/* set's the font to BioRhyme */
+	html {
+		padding:0px;
+		margin:0px;
+		font-family: 'Bubblegum Sans', serif;
+	}
+	
+	/*Styles the body*/
+	body {
+		padding:0px;
+		margin:0px; 
+		
+		background: url('../images/skytexture.png') no-repeat;
+        -webkit-background-size: 175%;
+        -moz-background-size: 175%;
+        -o-background-size: 175%;
+        background-size: 175%;
+		background-position: 50% 30vw;
+		
+		image-rendering: pixelated;
+		background-color: rgb(147, 188, 255);
+	}
+	
+	/* Stles the a */
+	a {
+		color: rgb(200, 200, 200);
+		text-decoration: none;
+		text-shadow: 
+		-1px -1px 0 rgb(50, 50, 50), 
+		1px -1px 0 rgb(50, 50, 50), 
+		-1px 1px 0 rgb(50, 50, 50), 
+		1px 1px 0 rgb(50, 50, 50);
+	}
+	
+	a:hover {
+		color:#e6e6e6;
+	}
+	
+	/*Styles the iframe*/
+	.contactFrame {
+		width: 100%;
+		height: auto;
+		overflow: auto;
+	}
+	
+	/*Styles the nav*/
+	.outerCloud {
+		background-color:rgb(230, 230, 230);
+		padding:3vw 0px 3vw 0px;
+		margin:0 auto;
+		border: solid 0;
+		border-radius: 0px 0px 30px 30px;
+	}
+	
+	.outerCloudBorder {
+		margin: 0 auto;
+		padding: 0;
+		
+		border-bottom: solid 5px;
+		border-image: url('../images/cloudBorder.png') 4 round;
+		border-top: none;
+		border-radius: 0px 0px 30px 30px;
+		
+	}
+	
+	nav .cloudBorder {
+	/*Styles the "cloudBorder" */
+		background-color: white;
+		margin:0 auto;
+		width: 90%;
+		border: 5px transparent solid;
+		text-align: center;
+		border-image: url('../images/cloudBorder.png') 10 round;
+		
+		/*border: dashed thick rgb(230, 230, 230);*/
+		border-radius: 30px 30px 30px 30px;
+	}
+	
+	#cloudLine {
+		display: block;
+		width:80vw;
+		border-bottom: solid thin rgb(230, 230, 230);
+		padding: 0em 3vw;
+		margin: 0 auto;
+	}
+	
+	/*Styles the ul*/
+	nav ul {
+		margin: 0px;
+		padding: 0em 0;
+		text-align: center;
+	}
+	
+	#navName {
+		font-size: 2em;
+		text-align: center;
+		margin: 0.1em auto;
+		display: inline-block;	
+		color: rgb(151, 237, 153);
+	}
+
+	/*Styles the navbar's items.*/
+	nav ul li {
+		display: block;
+																						/*width: 19%;*/
+		text-align:center;
+		margin: .3em 0;
+	}
+	
+	/*Styles the navbar links */
+	nav ul li a {	
+		font-size: 1.5em;
+		font-weight: 700;
+		padding:0px;
+	}
+	
+	.popout:after {
+		content:url('../images/16blank.png');
+		background:url('../images/popout.png') CENTER CENTER NO-REPEAT;
+		image-rendering: pixelated;
+		margin-left: .2em;
+	}
+	
+	.popoutFix {
+		margin-right: -1.3em;
+	}
+	
+	/* Styles the main area */
+	main {
+		padding: 0;
+		/*background-color: rgb(163, 120, 97);*/
+	}
+	
+	/* Styles the grassBorder */
+	.grassBorder {
+		width: 100%;
+		height: 1em;
+		margin: 0em;
+		border-image: url('../images/grassBorder.png') 10 round;
+		border-top: 5px solid;
+		/*border-bottom: dashed thick rgb(163, 120, 97);*/
+	}
+	
+	/* Styles the grassSpace */
+	.grassSpace {
+		background-color:rgb(145, 226, 124);
+		width: 100%;
+		height: 1em;
+		margin-bottom: 0;
+		/*border-bottom: dashed thick rgb(163, 120, 97);*/
+	}
+	
+	/*Styles the main h2 */
+	.mainText h2 {
+		font-size: 3em;
+		text-align: center;
+		margin:5vw;
+		
+	}
+	
+	/*Styles the main text area */
+	.mainText p {
+		font-size: 1.4em;
+		text-align: center;
+		margin: 0px;
+		padding: 0.2em;
+	}
+	
+	.dirtText {
+		width: 80%;
+		margin: 1em auto;
+		padding: .2em;
+		background-color: rgb(213, 163, 138);
+	}
+	
+	.dirtDivBar {
+		width: 80%;
+		margin: 0 auto 1em;
+		border-top: solid #a37861 thin;
+	}
+	
+	.napuDropdown {
+		border: thick #a37861 solid;
+		background-color: rgb(193,143,118);
+		overflow: auto;
+		margin-bottom: 1em;
+	}
+	
+	.dirtText img {
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+		max-width: 240px;
+		border: solid #a37861 thin;
+	}
+	
+	.dirtText p {
+		text-align:left;
+		margin: .2em 0;
+	}
+	
+	.dirtText ul {
+		font-size: 1.1em;
+		margin: 0em 2em;
+	}
+
+	.dirtText ul li ul li {
+		font-size: 0.8em;
+	}
+	
+	#headerDiv {
+		/*background-color: rgb(147, 188, 255);*/
+	}
+	
+	/*Sets the "helloWorldP" styles */
+	
+	#helloWorldP {
+		font-size: 8vw;
+		text-align: center;
+		/*Note: 26px*/
+		margin: 8vw 0 -8vw 0;
+		padding: 0;
+		/*background-color: rgb(147, 188, 255);*/
+	}
+	
+	/* Sets the "helloWorldHeader" font size */
+	#helloWorldHeader {
+		color: rgb(9, 48, 0);
+		font-size: 30vw;
+		text-align: center;
+		padding: 0 0 9vw 0;
+		margin: 0 0 -4vw;
+		width: 100%;
+		
+		/*text-shadow: 4px 4px 0 white;*/
+		text-shadow: 
+		-4px -4px 0 white, 
+		4px -4px 0 white, 
+		-4px 4px 0 white, 
+		4px 4px 0 white;
+	}
+	/*
+	.tree {
+		width: 4vw;
+		float: left;
+		margin-top:-6.5vw;
+		margin-left: 2vw;
+		image-rendering: pixelated;
+	}
+	
+	.trees .tree:nth-child(2n+3) {
+		margin-top:-7.0vw;
+	}
+	
+	.trees .tree:nth-child(2n+5) {
+		margin-top:-6.0vw;
+	}
+	
+	.trees .tree:nth-child(2n+1) {
+		margin-top:-8vw;
+		margin-left: 4.5vw;
+	}
+	
+	.trees .tree:nth-last-child(2) {
+		display: none;
+	}
+	*/
+	/*Styles the "dirtMesh"*/
+	/*.dirtMesh {
+		background-color:rgb(193, 143, 118);
+		width: auto;
+		border-top: dashed rgb(163, 120, 97);
+		border-bottom: dashed rgb(163, 120, 97);
+	}*/
+	
+	/*Styles the "dirtText"*/
+	.mainText {
+		background-image: url("../images/dirtBackground.png");
+		background-size: 50px;
+		image-rendering: pixelated;
+		padding-bottom: 2em;
+		padding-top: 2em;
+	}
+	
+	/*Styles the "Back To Top" button.*/
+	.backToTopButton {
+		background-color: rgb(192, 140, 114);
+		border: solid thick #916a55;
+		box-shadow: 0px 0px 10px #000;
+		position: fixed;
+		bottom: 10%;
+		right: 1em;
+		width: 3em;
+		height: 3em;
+	}
+	
+	.backToTopButton:focus {
+		outline: 0;
+	}
+	
+	/*Styles the "stoneMesh"*/
+	.stoneMesh {
+		background-color: rgb(165, 165, 165);
+		border-top: dashed rgb(145, 145, 145);
+		border-bottom: dashed rgb(145, 145, 145);
+		padding: .2em 0;
+	}
+	
+	/*Styles the footer */
+	footer {
+		background-color:rgb(145, 145, 145);
+		border-top: dashed rgba(163, 120, 97, 0);
+		text-align: center;
+		padding:1em 0;
+	}
+	
+	/*Styles the footer <p> */
+	footer p {
+		margin: 0em .2em;
+		padding: 0 .2em;
+	}
+	
+	/*Tablet viewport*/
+	@media only screen and (min-width: 600px){
+		
+		/*Styles the body*/
+		body {
+			-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+			-o-background-size: 100%;
+			background-size: 100%;
+			background-position: 0 9vw;
+		}
+		
+		/*Hides the computer components*/
+		.onlyComputer {
+			display: none;
+		}
+		
+		/*Styles the navbar items*/
+		nav ul li {
+			display: inline-block;
+			width: 19%;
+			margin: .5em 0;
+		}
+	
+		/*Styles the iframe*/
+		.contactFrame {
+			width: 100%;
+			height: 650px;
+		}
+			
+		/*Styles the "helloWorldP".*/
+		#helloWorldP {
+			font-size: 5vw;
+			margin: 6vw 0 -6vw 0;
+		}
+		
+		/* Styles the "helloWorldHeader". */
+		#helloWorldHeader {
+			font-size: 20vw;
+			padding: 0 0 9vw 0;
+			width: 100%;
+		}
+		
+		/*Styles the "navName" (Napu Taitano)*/
+		#navName {
+			margin: .2em auto;
+		}
+	
+		.dirtText {
+			overflow: auto;
+			padding: 1em;
+		}
+			
+		.dirtDivBar {
+			width: 90%;
+			margin: 0 auto 1em;
+			border-top: solid #a37861 thin;
+		}
+	
+		.dirtText img {
+			margin: 0;
+			text-align: center;
+			float:right;
+			display: block;
+			max-width: 240px;
+			border: solid #a37861 thin;
+		}
+		
+		.projectDiv .project .phoneScreenshots img{
+			display: inline;
+			width: auto;
+			margin: 1em auto;
+			text-align: center;
+			max-width:  -webkit-calc(50% - 0.1em);
+			max-width:     -moz-calc(50% - 0.1em);
+			max-width:          calc(50% - 0.1em);
+			border: none;
+		}
+
+		.projectDiv .project .smallImg img {
+			width: 66%;
+		}
+	}
+	
+	/*Computer viewport*/
+	@media only screen and (min-width: 1200px) {
+		
+		/*Styles the body*/
+		body {
+			-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+			-o-background-size: 100%;
+			background-size: 100%;
+			background-position: 0 7vw;
+		}
+		
+		/*Shows the computer components*/
+		.onlyComputer {
+			display: inline-block;
+		}
+		
+		/*Styles the navbar items*/
+		nav ul li {
+			display: inline-block;
+			width: 16%;
+			margin: .5em 0;
+		}
+		
+		
+		.outerCloud {
+			padding: 1em;
+		}
+		
+		nav .cloudBorder {
+			width: 94.5vw;
+			text-align: left;
+		}
+			
+		/*Styles the "helloWorldP".*/
+		#helloWorldP {
+			font-size: 3vw;
+			margin: 5vw 0 -5vw 0;
+		}
+		
+		/* Styles the "helloWorldHeader". */
+		#helloWorldHeader {
+			font-size: 15vw;
+			padding: 0 0 9vw 0;
+			width: 100%;
+		}
+		
+		/*Styles the "navName"*/
+		#navName {
+			text-align: left;
+			margin: 0.2em 8vw;
+			display: inline-block;																						/*margin: 8vw;*/
+			color: rgb(151, 237, 153);
+		}
+		
+		/*Styles the main h2 */
+		.mainText h2 {
+		margin:0 0 1vw;
+		}
+			
+		.dirtText {
+			padding: 5vw;
+		}
+			
+		.dirtText img {
+			margin: 0 auto;
+			border-top: solid #a37861 thin;
+		}
+		
+		.projectDiv .project .phoneScreenshots img{
+			display: inline;
+			width: auto;
+			margin: 1em auto;
+			text-align: center;
+			max-width:  -webkit-calc(25% - 0.15em);
+			max-width:     -moz-calc(25% - 0.15em);
+			max-width:          calc(25% - 0.15em);
+			border: none;
+		}
+
+		.projectDiv .project .smallImg img {
+			width: 33%;
+		}
+		
+	}

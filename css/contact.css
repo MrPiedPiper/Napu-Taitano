@@ -1,0 +1,72 @@
+	
+	
+	html {
+		font-family: "Bubblegum Sans"
+	}
+	
+	.contactForm, table {
+		width: 100%;
+	}
+	tr {
+		border-top: solid #a37861 thin;
+
+	}
+	
+	table {
+		border-collapse: collapse;
+		width: 100%;
+		table-layout: fixed;
+	}
+	
+	table td {
+		padding: .5em 0;
+		display: block;
+	}
+	
+	table label {
+		margin-bottom: -0.3em;
+	}
+	
+		label, input, textarea {
+			margin: 0 auto;
+			text-align: center;
+			display: block;
+			font-size: 1.4em;
+			width: 90%;
+		}
+	.centerCaptcha {
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.g-recaptcha {
+		display: inline-block;
+		
+		transform:scale(0.77);
+		-webkit-transform:scale(0.77);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+	}
+	
+	@media only screen and (min-width: 800px) {
+	
+	.g-recaptcha {
+		display: inline-block;
+		max-width: 100%;
+		
+		transform:scale(1.00);
+		-webkit-transform:scale(1.00);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+	}
+		
+		table td{
+			display: table-cell;
+		}
+	
+		table label {
+			margin-top: 0.15em;
+		}
+		
+	}

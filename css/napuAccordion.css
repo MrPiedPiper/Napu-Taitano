@@ -1,0 +1,31 @@
+
+			.napuAccordion {
+				margin-top: 1.5em;
+				margin-bottom: 1.5em;
+			}
+			.napuAccordion .accordionContent .napuAccordion{
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			.napuAccordion button {
+				background-color: rgb(193,143,118);
+				border: solid thick;
+				border-color:#a37861;
+				width: 100%;
+				margin: .2em auto 0;
+				font-size: 1.2em;
+				font-weight: bold;
+				font-family: 'Bubblegum Sans', serif;
+				display:block;
+				cursor: pointer;
+			}
+			
+			.accordionContent {
+				padding: 0 0.3em 0.3em;
+				border: thick #a37861 solid;
+			}
+			
+			.napuAccordion button:focus {
+				outline: 0;
+			}

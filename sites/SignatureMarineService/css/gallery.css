@@ -1,0 +1,160 @@
+			
+			/* Styles for the slideshow */
+			.rotate {
+				transform: rotate(90deg);
+			}
+	
+			.photoViewer {
+				margin: 20px;
+				display: none;
+			}
+			
+			.photoWindow {
+				position: relative;
+				height: 650px;
+				overflow: hidden;
+				margin-top: -45px;
+			}
+			
+			/*.photoWindow.is-loading:after {
+				content: url(../images/loading.gif);
+				position: absolute;
+				top: 50%;
+				left: 50%;
+			}*/
+			
+			.photoWindow img {
+				position: absolute;
+				max-width: 100%;
+				max-height: 100%;
+				top: 50%;
+				left: 50%;
+			}
+			
+			a.active {
+				opacity: 0.3;
+			}
+			
+			.thumbnails {
+				text-align: center;
+				margin-top: 60px;
+				margin-bottom: 60px;
+			}
+			
+			.tallThumb {
+				width: 90px;
+				padding: 2px;
+				border: solid black thin;
+				margin-bottom:20px;
+			}
+			
+			.tallThumbA {
+				margin: auto -15px;
+			}
+			
+			.wideThumbA {
+				margin: auto 7.5px;
+			}
+			
+			.wideThumb {
+				width: 150px;
+				padding: 2px;
+				border: solid black thin;
+			}
+			
+			.tall {
+				height: 400px;
+				width: 600px;
+				padding: 5px;
+				border: solid black thick;
+			}
+			
+			.wide {
+				height: 400px;
+				width: 600px;
+				padding: 5px;
+				border: solid black thick;
+			}
+			
+			
+			/* End of slideshow styles */
+@media (max-width: 767px){
+			
+			.tall {
+				height: 200px;
+				width: 300px ;
+				padding: 5px;
+				border: solid black thick;
+			}
+			
+			.wide {
+				height: 200px;
+				width: 300px;
+				padding: 5px;
+				border: solid black thick;
+			}
+			
+			.photoWindow {
+				position: relative;
+				height: 350px;
+				overflow: hidden;
+				margin-top: -45px;
+			}
+			
+			.tallThumb {
+				width: 60px;
+				padding: 2px;
+				border: solid black thin;
+				margin-bottom:13px;
+			}
+			
+			.wideThumb {
+				width: 100px;
+				padding: 2px;
+				border: solid black thin;
+			}
+			
+			.tallThumbA {
+				margin: auto -10px;
+			}
+			
+			.wideThumbA {
+				margin: auto 2.5px;
+			}
+}
+
+@media (max-width: 572px){
+			
+			.tall {
+				height: 150px;
+				width: 225px ;
+				padding: 5px;
+				border: solid black thick;
+			}
+			
+			.wide {
+				height: 150px;
+				width: 225px ;
+				padding: 5px;
+				border: solid black thick;
+			}
+			
+			.photoWindow {
+				position: relative;
+				height: 275px;
+				overflow: hidden;
+				margin-top: -45px;
+			}
+			
+			.tallThumb {
+				width: 60px;
+				padding: 2px;
+				border: solid black thin;
+			}
+			
+			.wideThumb {
+				width: 100px;
+				padding: 2px;
+				border: solid black thin;
+			}
+}
