@@ -25,6 +25,10 @@
 				padding: 0 0.3em 0.3em;
 				border: thick #a37861 solid;
 			}
+
+			.accordionContent li {
+				overflow: auto;
+			}
 			
 			.napuAccordion button:focus {
 				outline: 0;
