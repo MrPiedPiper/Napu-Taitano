@@ -52,6 +52,7 @@
 
 	.projectDiv .project .smallImg img {
 		width: 99%;
+		margin: 1em auto;
 	}
 	
 	.projectText {
@@ -59,12 +60,15 @@
 		width: 99%;
 		margin: 0 auto;
 	}
+
+	.projectDiv .project .doubleImg {
+		text-align: center;
+	}
 	
 	.projectDiv .project .doubleImg img {
 		display: inline;
 		width: auto;
 		margin: 1em auto;
-		text-align: center;
 		max-width: 100%;
 		border: none;
 	}
@@ -554,6 +558,11 @@
 			max-width: 240px;
 			border: solid #a37861 thin;
 		}
+	
+		.projectDiv .project .doubleImg img {
+			max-width: 75%;
+			margin: 5% 1em;
+		}
 
 		.dirtText .comptiaLogo {
 			border: none;
@@ -685,6 +694,12 @@
 			margin: 0 auto;
 			border-top: solid #a37861 thin;
 		}
+
+		.projectDiv .project .doubleImg img {
+			max-width: 45%;
+			margin: 1em 1%;
+		}
+
 		.comptiaLogo img {
 			margin: 4em;
 			border: none;

@@ -8,7 +8,7 @@
 				margin-bottom: 0;
 			}
 
-			.napuAccordion button {
+			.napuAccordion button, .napuCollapseAllInParentButton {
 				background-color: rgb(193,143,118);
 				border: solid thick;
 				border-color:#a37861;
@@ -19,6 +19,10 @@
 				font-family: 'Bubblegum Sans', serif;
 				display:block;
 				cursor: pointer;
+			}
+
+			.napuCollapseAllInParentButton {
+				width: auto;
 			}
 			
 			.accordionContent {
