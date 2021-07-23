@@ -283,6 +283,7 @@
 		margin: 1em auto;
 		padding: .2em;
 		background-color: rgb(213, 163, 138);
+		overflow: auto;
 	}
 	
 	.dirtDivBar {
@@ -304,6 +305,11 @@
 		display: block;
 		max-width: 240px;
 		border: solid #a37861 thin;
+	}
+
+	.aboutBox {
+		padding: 0 0.3em 0.3em;
+		border: thick #a37861 solid;
 	}
 
 	.dirtText .comptiaLogo {
@@ -699,10 +705,11 @@
 			max-width: 45%;
 			margin: 1em 1%;
 		}
-
+		
 		.comptiaLogo img {
 			margin: 4em;
 			border: none;
+			max-width: 240px;
 		}
 		
 		.projectDiv .project .phoneScreenshots img{

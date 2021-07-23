@@ -28,6 +28,8 @@
 			.accordionContent {
 				padding: 0 0.3em 0.3em;
 				border: thick #a37861 solid;
+				display: none;
+				padding:1em 1em 0em 1em;
 			}
 
 			.accordionContent li {
@@ -36,4 +38,8 @@
 			
 			.napuAccordion button:focus {
 				outline: 0;
+			}
+
+			.napuAccordion .napuCollapseAccordionButton {
+				margin-top: 1em;
 			}
