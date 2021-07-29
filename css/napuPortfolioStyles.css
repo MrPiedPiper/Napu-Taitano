@@ -1,5 +1,9 @@
-
-	/* #region Mobile */
+	
+	/* #region Extra Small Mobile */
+	body {
+		background-size: cover;
+	}
+	
 	#introText {
 		position: absolute;
 	}
@@ -95,11 +99,14 @@
 		margin:0px; 
 		
 		background: url('../images/skytexture.png') no-repeat;
-        -webkit-background-size: 175%;
-        -moz-background-size: 175%;
-        -o-background-size: 175%;
-        background-size: 175%;
-		background-position: 50% 30vw;
+		
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+		background-position: 50% 50vw;
 		
 		image-rendering: pixelated;
 		background-color: rgb(147, 188, 255);
@@ -134,6 +141,7 @@
 		margin:0 auto;
 		border: solid 0;
 		border-radius: 0px 0px 30px 30px;
+		margin-bottom: -0.1em;
 	}
 	
 	.outerCloudBorder {
@@ -219,6 +227,7 @@
 		width: 100%;
 		height: 1em;
 		margin: 0em;
+		margin-bottom: -0.1em;
 		border-image: url('../images/grassBorder.png') 10 round;
 		border-top: 5px solid;
 		/*border-bottom: dashed thick rgb(163, 120, 97);*/
@@ -229,6 +238,7 @@
 		background-color:rgb(145, 226, 124);
 		width: 100%;
 		height: 1em;
+		margin-top: -0.1em;
 		margin-bottom: 0;
 		/*border-bottom: dashed thick rgb(163, 120, 97);*/
 	}
@@ -299,11 +309,17 @@
 	}
 	
 	.dirtText img {
+		margin-left: -0.1em;
+		margin-right: -0.1em;
+		width: 99%;
+		max-width: 240px;
+		border-width: 0.1em;
+		border: solid #a37861 thin;
+	}
+
+	.imageRightDiv {
 		margin: 0 auto;
 		text-align: center;
-		display: block;
-		max-width: 240px;
-		border: solid #a37861 thin;
 	}
 
 	.aboutBox {
@@ -337,8 +353,8 @@
 		position: absolute;
 		left: 50%;
 		right: 50%;
-		margin-left: -25%;
-		margin-right: -25%;
+		margin-left: -25vw;
+		margin-right: -25vw;
 
 		border: none; 
 		max-width: 50vw;
@@ -360,11 +376,37 @@
 	
 	.dirtText ul {
 		font-size: 1.1em;
+		padding-inline-start: 0;
+		margin-bottom: 3em;
+	}
+
+	.dirtText ul ul {
 		padding-inline-start: 1em;
 	}
 
 	.dirtText ul li ul li {
 		font-size: 0.8em;
+	}
+
+	.dirtText ul li {
+		margin-bottom: 2em;
+	}
+
+	.dirtText .listTitle {
+		font-size: 2em;
+	}
+
+	.dirtText .compactList {
+		margin-top: 0;
+		margin-left: 1em;
+	}
+
+	.dirtText .compactList li {
+		margin-bottom: 0;
+	}
+
+	.dirtText ul :last-child {
+		margin-bottom: 0;
 	}
 	
 	#headerDiv {
@@ -494,10 +536,30 @@
 		padding-inline-start: 1em;
 	}
 
-	/* #endregion Mobile */
+	/* #endregion Extra Small Mobile */
+
+	/* #region Small Mobile */
+	@media only screen and (min-width: 246px) {
+		body {
+			background-size: 175%;
+			-webkit-background-size: 175%;
+			-moz-background-size: 175%;
+			-o-background-size: 175%;
+			background-size: 175%;
+		}
+	}
+	/* #endregion Small Mobile */
+
+	/* #region Medium Mobile */
+	@media only screen and (min-width: 340px) {
+		body {
+			background-position: 50% 30vw;
+		}
+	}
+	/* #endregion Medium Mobile */
 
 	/*Tablet viewport*/
-	@media only screen and (min-width: 600px){
+	@media only screen and (min-width: 670px){
 		
 		/*Styles the body*/
 		body {
